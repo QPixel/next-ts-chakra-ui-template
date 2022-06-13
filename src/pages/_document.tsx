@@ -46,6 +46,9 @@ class MyDocument extends Document {
 	render() {
 		return (
 			<Html lang="en">
+				<Head>
+					<link rel="manifest" href="/manifest.json" />apd
+				</Head>
 				<body>
 					<Main />
 					<NextScript />
